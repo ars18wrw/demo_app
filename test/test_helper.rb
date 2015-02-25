@@ -7,4 +7,10 @@ class ActiveSupport::TestCase
   fixtures :all
 
   # Add more helper methods to be used by all tests here...
+  Test.configure do |config|
+  .
+  .
+  .
+  config.include Capybara::DSL
+end
 end
